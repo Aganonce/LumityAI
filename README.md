@@ -68,19 +68,19 @@ The program `mod_utils.py` contains all of the prompts inputted into the convers
 
 ## Test app launch
 
-To launch the game on desktop for dev, run
+To launch the online game interface on desktop for dev (to test UI), run
 
 ```bash
 flet main.py -d
 ```
 
-To launch the game in a web browser, run
+To launch the interface in a web browser, run
 
 ```bash
 flet main.py -d -w
 ```
 
-## Game setup
+## Game setup and launch
 
 Create directories for logging and for data storage. Run
 
