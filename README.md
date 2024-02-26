@@ -56,7 +56,7 @@ CREATE TABLE invites (invite_id INT PRIMARY KEY NOT NULL, sender_id INT NOT NULL
 CREATE TABLE botcontext (bot_id INT NOT NULL, target_id INT NOT NULL, created_at TIMESTAMP, opinion VARCHAR(255) NOT NULL, primary key (bot_id, target_id));
 ```
 
-To replicate the discussion prompt used in Lumity's research, run:
+To replicate the discussion prompt used in Lumity's research, run
 
 ```sql
 INSERT INTO prompts (prompt_id, prompt, opinions) VALUES (1, "Which of these diets is the best compromise between nutritiousness and climate consciousness?", "1:Vegan|2:Vegetarian|3:Omnivorous|4:Pescatarian");
@@ -88,13 +88,13 @@ Create directories for logging and for data storage. Run
 mkdir logs data
 ```
 
-Game launches will generally be handled automatically by the Discord Organizer Bot. However, you can also launch a game manually by running
+You can launch a game by calling
 
 ```bash
 python study_setup.py <NUM_HUMAN_PARTICIPANTS> <STUDY_ID>
 ```
 
-Where `<NUM_HUMAN_PARTICIPANTS>` controls the number of human participants involved in the game and `<STUDY_ID>` defines the unique study ID for records (i.e., logging, data files). Run with the `-h` flag for more details.
+Where `<NUM_HUMAN_PARTICIPANTS>` controls the number of human participants involved in the game and `<STUDY_ID>` defines the unique study ID for records (i.e., logging, data files). Run with the `-h` flag for more details. Upon launch this program will generate the login credentials for human players, and will instantiate and monitor all AI players. Once the time limit defined in the config file has expired, human players will be directed to the exit surveys, and all data involving invites, conversations, and aquired points will be dumped into the data directory.
 
 ## References
 
