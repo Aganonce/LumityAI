@@ -2,7 +2,7 @@
     <img src="/images/header.jpeg" alt="image" width="50%" height="auto">
 </p>
 
-## A human and AI online game environment and interface
+## Integrating conversational AI and humans with an online game environment
 
 Lumity provides an online game environment with an anonymous, live messaging system built in. The game is tooled toward debate and opinion consensus focused around a custom discussion prompt, with customizable player counts, time limits, and surveys sent out to players at the end of the game. Importantly, Lumity's primary feature is enabling the seamless integration of human players with conversational AI acting as players, allowing for Turing test-like situations. This program was built as part of a research initiative by RPI's NEST center [[1]](#references).
 
