@@ -99,4 +99,5 @@ Where `<NUM_HUMAN_PARTICIPANTS>` controls the number of human participants invol
 ## References
 
 [1] Flamino, James, et al. "Limits of Large Language Models in Debating Humans." [arXiv preprint arXiv:2402.06049](https://arxiv.org/abs/2402.06049) (2024).
+
 [2] [https://github.com/flet-dev/flet](https://github.com/flet-dev/flet)
