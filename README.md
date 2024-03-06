@@ -68,7 +68,7 @@ The program `mod_utils.py` contains all of the prompts inputted into the convers
 
 ## Test app launch
 
-To launch the online game interface on desktop for dev (to test UI), run
+The online game interface is powered by Flet [[2]](#references). To launch the UI on desktop for dev testing, run
 
 ```bash
 flet main.py -d
@@ -99,3 +99,4 @@ Where `<NUM_HUMAN_PARTICIPANTS>` controls the number of human participants invol
 ## References
 
 [1] Flamino, James, et al. "Limits of Large Language Models in Debating Humans." [arXiv preprint arXiv:2402.06049](https://arxiv.org/abs/2402.06049) (2024).
+[2] [https://github.com/flet-dev/flet](https://github.com/flet-dev/flet)
